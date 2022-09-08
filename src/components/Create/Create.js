@@ -102,7 +102,7 @@ const Create = () => {
           <Grid xs={3}>
             <div className={classes.iconQuestion}>
               <Link
-                href=""
+                href="/tutorial"
                 target={'_blank'}
               >
                 <BsFillQuestionCircleFill size={30} color="gray" />

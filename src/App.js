@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import CreateScreen from './screens/CreateScreen';
+import TutorialScreen from './screens/TutorialScreen';
 import Layout from './components/Layout/Layout';
 import NotFoundScreen from './screens/NotFoundScreen';
 import DetailCourseScreen from './screens/DetailCourseScreen';
@@ -15,6 +16,7 @@ function App() {
       <Route path={'/'} element={<Layout />}>
         <Route path={'/'} element={<HomeScreen title={'Home | Quizlaint'}/>} />
         <Route path={'/create'} element={<CreateScreen title={'Create course | Quizlaint'}/>} />
+        <Route path={'/tutorial'} element={<TutorialScreen title={'Help | Quizlaint'}/>} />
         <Route path={'/course/:id'} element={<DetailCourseScreen title={'Detail course | Quizlaint'}/>} />
         <Route path={'/learn/:id'} element={<LearnScreen title={'Learn course | Quizlaint'}/>} />
         <Route path={'/learn/pmg/:id'} element={<LearnPmgScreen title={'Learn PMG course | Quizlaint'}/>} />

@@ -17,13 +17,8 @@ const NotFound = () => {
       <Spacer y={3} />
       <Text size={10}>
         Copyright © {new Date().getFullYear()}{' '}
-        <LinkNextUI
-          target={'_blank'}
-          href="https://github.com/AdonisGM"
-          color={'text'}
-        >
+
           <strong>AE</strong>
-        </LinkNextUI>
       </Text>
     </div>
   );
